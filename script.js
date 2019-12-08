@@ -8,7 +8,7 @@
 let keyBoard = document.querySelector("#keyBoard");
 let number1 = document.querySelector(".div-1");
 keyBoard.onkeydown = function () {
-    number1.classList()
+    number1.classList.toggle("buthover");
 }
 
 
@@ -17,14 +17,14 @@ let number2 = document.querySelector(".div-2");
 let number3 = document.querySelector(".div-3");
 
 
-let buttoN = document.querySelector(".buttoN");
-keyBoard.onkeydown = function (event) {
-    const number = {
-        1: 2,
-        2: 3,
-        3: 4
-    }
-    document.querySelector("#keyBoard").value += number[event.key];
-    console.log(event.key);
+// let buttoN = document.querySelector(".buttoN");
+// keyBoard.onkeydown = function (event) {
+//     const number = {
+//         1: 2,
+//         2: 3,
+//         3: 4
+//     }
+//     document.querySelector("#keyBoard").value += number[event.key];
+//     console.log(event.key);
 
-}
+// }
