@@ -16,71 +16,88 @@
 enter, space, alt, shift, ctrl. Затемнение реализуйте через добавление класса CSS. Для удобства рекомендую каждой
 клавише добавить атрибут data с символом. Если нажата клавиша caps lock - то присвоить ей затемнение, которое работает
 до последующего отжатия клавиши. -->
-<label for="keyBoard"> Введите что нибудь </label><input type="text" id="keyBoard">
+<label for="inp"> Введите что нибудь </label><input type="text" id="inp">
 <div id='basis'>
+    <div class='f'>
+        <div class="Esc buttoN">Esc </div>
+        <div class="div-f1 buttoN">F1</div>
+        <div class="div-f2 buttoN">F2</div>
+        <div class="div-f3 buttoN">F3</div>
+        <div class="div-f4 buttoN">F4</div>
+        <div class="div-f5 buttoN">F5</div>
+        <div class="div-f6 buttoN">F6</div>
+        <div class="div-f7 buttoN">F7</div>
+        <div class="div-f8 buttoN">F8</div>
+        <div class="div-f9 buttoN">F9</div>
+        <div class="div-f10 buttoN">F10</div>
+        <div class="f11 buttoN">F11</div>
+        <div class="f12 buttoN">F12</div>
+    </div>
+
     <div class='digit'>
-        <div class="divLamba buttoN">`</div>
-        <div class="div-1 buttoN">1</div>
-        <div class="div-2 buttoN">2</div>
-        <div class="div-3 buttoN">3</div>
-        <div class="div-4 buttoN">4</div>
-        <div class="div-5 buttoN">5</div>
-        <div class="div-6 buttoN">6</div>
-        <div class="div-7 buttoN">7</div>
-        <div class="div-8 buttoN">8</div>
-        <div class="div-9 buttoN">9</div>
-        <div class="div-0 buttoN">0</div>
-        <div class="divMinus buttoN">-</div>
-        <div class="divPlus buttoN">+</div>
+        <div class="divLamba buttoN">`<br><span>~</span></div>
+        <div class="div-1 buttoN" data-key1='1'>!<br><span>1</span></div>
+        <div class="div-1 buttoN" data-key2='2'>@<br><span>2</span></div>
+        <div class="div-1 buttoN" data-key3='3'>#<br><span>3</span></div>
+        <div class="div-1 buttoN" data-key4='4'>$<br><span>4</span></div>
+        <div class="div-1 buttoN" data-key5='5'>%<br><span>5</span></div>
+        <div class="div-2 buttoN" data-key6='6'>^<br><span>6</span></div>
+        <div class="div-7 buttoN">&<br><span>7</span></div>
+        <div class="div-8 buttoN">*<br><span>8</span></div>
+        <div class="div-9 buttoN">(<br><span>9</span></div>
+        <div class="div-0 buttoN">)<br><span>0</span></div>
+        <div class="divMinus buttoN">_<br><span>-</span></div>
+        <div class="divPlus buttoN">+<br><span>=</span></div>
     </div>
 
     <div class='letter-1'>
-        <div class="divLamba buttoN">Tab</div>
-        <div class="div-q buttoN">Q</div>
-        <div class="div-w buttoN">W</div>
-        <div class="div-e buttoN">E</div>
-        <div class="div-r buttoN">R</div>
-        <div class="div-t buttoN">T</div>
-        <div class="div-y buttoN">Y</div>
-        <div class="div-u buttoN">U</div>
-        <div class="div-i buttoN">I</div>
-        <div class="div-o buttoN">O</div>
-        <div class="div-p buttoN">P</div>
-        <div class="divBracket1 buttoN">{</div>
-        <div class="divBracket2 buttoN">}</div>
+        <div class="Tab buttoN">Tab</div>
+        <div class="div-q buttoN">Q<br><span>Й</span></div>
+        <div class="div-w buttoN">W<br><span>Ц</span></div>
+        <div class="div-e buttoN">E<br><span>У</span></div>
+        <div class="div-r buttoN">R<br><span>К</span></div>
+        <div class="div-t buttoN">T<br><span>Е</span></div>
+        <div class="div-y buttoN">Y<br><span>Н</span></div>
+        <div class="div-u buttoN">U <br><span>Г</span></div>
+        <div class="div-i buttoN">I<br><span>Ш</span></div>
+        <div class="div-o buttoN">O<br><span>Щ</span></div>
+        <div class="div-p buttoN">P<br><span>З</span></div>
+        <div class="divBracket1 buttoN">{<br><span>Х</span></div>
+        <div class="divBracket2 buttoN">}<br><span>Ъ</span></div>
     </div>
 
     <div class='letter-2'>
         <div class="divCaps buttoN">Caps <br>Lock</div>
-        <div class="div-a buttoN">A</div>
-        <div class="div-s buttoN">S</div>
-        <div class="div-d buttoN">D</div>
-        <div class="div-f buttoN">F</div>
-        <div class="div-g buttoN">G</div>
-        <div class="div-h buttoN">H</div>
-        <div class="div-j buttoN">J</div>
-        <div class="div-k buttoN">K</div>
-        <div class="div-l buttoN">L</div>
-        <div class="div-colon buttoN">:</div>
-        <div class="divMark buttoN">"</div>
+        <div class="div-s buttoN">S<br><span>Ы</span></div>
+        <div class="div-a buttoN">A<br><span>Ф</span></div>
+        <div class="div-d buttoN">D<br><span>В</span></div>
+        <div class="div-f buttoN">F<br><span>А</span></div>
+        <div class="div-g buttoN">G<br><span>П</span></div>
+        <div class="div-h buttoN">H<br><span>Р</span></div>
+        <div class="div-j buttoN">J<br><span>О</span></div>
+        <div class="div-k buttoN">K<br><span>Л</span></div>
+        <div class="div-l buttoN">L<br><span>Д</span></div>
+        <div class="div-colon buttoN">:<br><span>Ж</span></div>
+        <div class="divMark buttoN">"<br><span>Э</span></div>
         <div class="divEnter buttoN">Enter</div>
     </div>
 
     <div class='letter-3'>
         <div class="divShift buttoN">Shift</div>
-        <div class="div-z buttoN">Z</div>
-        <div class="div-x buttoN">X</div>
-        <div class="div-c buttoN">C</div>
-        <div class="div-v buttoN">V</div>
-        <div class="div-b buttoN">B</div>
-        <div class="div-n buttoN">N</div>
-        <div class="div-m buttoN">M</div>
+        <div class="div-z buttoN">Z<br><span>Я</span></div>
+        <div class="div-x buttoN">X<br><span>Ч</span></div>
+        <div class="div-c buttoN">C<br><span>С</span></div>
+        <div class="div-v buttoN">V<br><span>М</span></div>
+        <div class="div-b buttoN">B<br><span>И</span></div>
+        <div class="div-n buttoN">N<br><span>Т</span></div>
+        <div class="div-m buttoN">M<br><span>Ь</span></div>
         <div class="div-arrow1 buttoN">
-            < </div> <div class="div-arrow2 buttoN"> >
+            < <br><span>Б</span>
         </div>
-        <div class="div-slesh buttoN">/</div>
+        <div class="div-arrow2 buttoN"> ><br><span>Ю</span>
+        </div>
+        <div class="div-slesh buttoN">/<br><span>?</span></div>
         <div class="divShift buttoN">Shift</div>
-        <div class="divShift buttoN">Empty</div>
     </div>
 
     <div class='symbol'>

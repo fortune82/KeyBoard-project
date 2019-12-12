@@ -5,21 +5,45 @@
 // enter, space, alt, shift, ctrl. Затемнение реализуйте через добавление класса CSS. Для удобства рекомендую каждой
 // клавише добавить атрибут data с символом. Если нажата клавиша caps lock - то присвоить ей затемнение, которое работает
 //  до последующего отжатия клавиши
-let number1 = document.querySelector(".buttoN");
-let keyBoard = document.querySelector("#keyBoard");
-keyBoard.onkeypress = function (event) {
-    const a = {
-        charcode1: '1',
-        charcode2: '2',
-        charcode3: '3'
-    }
-    for (elem in a) {
-        if (keyBoard.value == a[event.key]) {
-            number1.classList.toggle("buthover");
+let number1 = document.querySelectorAll(".buttoN").attributes;
+// let atr = number1.getAttribute('data');
+let inp = document.querySelector("#inp");
+// let dat = document.getAttribute('.button data');
+inp.onkeypress = function () {
+    console.log("ura");
+    for (i = 0; i < number1.length; i++) {
+        if (inp.value == atr) {
+            this.number1.classList.toggle(".buthover");
         }
     }
-    console.log(event);
 }
+
+
+
+
+
+
+
+
+// inp.onkeypress = function (event) {
+//     // if (dat == 1) {
+//     //     number1.classList.toggle(".buthover");
+//     // }
+
+
+
+//     const a = {
+//         charcode1: '1',
+//         charcode2: '2',
+//         charcode3: '3'
+//     }
+//     for (elem in a) {
+//         if (inp.value == a[event.key]) {
+//             number1.classList.toggle(".buthover");
+//         }
+//     }
+//     console.log(event);
+// }
 
 
 
