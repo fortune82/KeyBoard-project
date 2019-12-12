@@ -1,8 +1,21 @@
+.input1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+#inp {
+    width: 300px;
+    height: 30px;
+    margin-top: 15px;
+}
+
 #basis {
     border: 1px solid grey;
     width: 700px;
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 100px;
     background: linear-gradient(90deg, #AECD33, #CD27C5, #1B6ECD);
 }
 
