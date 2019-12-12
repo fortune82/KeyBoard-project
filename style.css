@@ -13,7 +13,7 @@
 
 #basis {
     border: 1px solid grey;
-    width: 700px;
+    width: 800px;
     margin: 0 auto;
     margin-top: 100px;
     background: linear-gradient(90deg, #AECD33, #CD27C5, #1B6ECD);
@@ -32,7 +32,7 @@
 
 
 .buttoN {
-    margin-top: 2px;
+    margin-top: 1px;
     border: 1px solid grey;
     border-radius: 5px;
     width: 50px;
@@ -44,15 +44,52 @@
 
 .f div {
     height: 35px;
+    width: 48px;
+    text-align: center;
 }
 
 .digit div:nth-child(12) {
     text-align: center;
 }
 
-.letter-3 div:nth-child(12) {
+.digit div:nth-child(14) {
     width: 100px;
+    font-size: 12pt;
+    text-align: center;
 }
+
+.letter-1 div:nth-child(1) {
+    width: 80px;
+}
+
+.letter-1 div:nth-child(14) {
+    width: 90px;
+
+}
+
+.letter-2 div:nth-child(1) {
+    width: 90px;
+}
+
+.letter-2 div:nth-child(13) {
+    width: 130px;
+    text-align: right;
+}
+
+.letter-3 div:nth-child(1) {
+    width: 115px;
+}
+
+.letter-3 div:nth-child(12) {
+    width: 150px;
+    text-align: right;
+}
+
+.div-space {
+    width: 430px;
+    text-align: center;
+}
+
 
 .f div:nth-child(1) {
     color: yellow;
@@ -69,10 +106,6 @@ span {
     padding-left: 30px;
 }
 
-.div-space {
-    width: 482px;
-    text-align: center;
-}
 
 .buthover {
     background-color: blue;
