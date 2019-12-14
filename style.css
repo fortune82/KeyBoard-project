@@ -1,8 +1,60 @@
+.monitor {
+    margin: 0 auto;
+    width: 780px;
+    height: 305px;
+    background-color: #11586c;
+    margin-top: 100px;
+    border: 10px solid black;
+    border-radius: 5px;
+}
+
+.monitor h2 {
+    color: #29d529;
+}
+
+.loop {
+    width: 800px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.loop_1 {
+    display: inline-block;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 20px;
+    width: 50px;
+    height: 20px;
+    background-color: black;
+}
+
+.loop_2 {
+    display: inline-block;
+    border-radius: 0 10px 10px 0;
+    width: 50px;
+    height: 20px;
+    background-color: grey;
+}
+
+.loop_3 {
+    display: inline-block;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 550px;
+    width: 50px;
+    height: 20px;
+    background-color: grey;
+}
+
+.loop_4 {
+    display: inline-block;
+    border-radius: 0 10px 10px 0;
+    width: 50px;
+    height: 20px;
+    background-color: black;
+}
+
 .input1 {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
-
 }
 
 #inp {
@@ -13,9 +65,9 @@
 
 #basis {
     border: 1px solid grey;
+    border-radius: 5px;
     width: 800px;
     margin: 0 auto;
-    margin-top: 100px;
     background: linear-gradient(90deg, #AECD33, #CD27C5, #1B6ECD);
 }
 
@@ -107,6 +159,6 @@ span {
 }
 
 
-.buthover {
-    background-color: blue;
+.yellow {
+    background-color: yellow;
 }
