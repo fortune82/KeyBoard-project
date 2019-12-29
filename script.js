@@ -135,42 +135,21 @@
 
 
 
-
 //--------------Оптимизированный рабочий код!!!!!-----------
 let inp = document.querySelector("#inp");
-let f = document.querySelector(".f");
-let digit = document.querySelector(".digit");
-let letter1 = document.querySelector(".letter-1");
-
-// f.onkeydown = function (event) {
-// 	console.log(event.key);
-// 	var b = digit.querySelector(".div-" + event.key);
-// 	if (b)
-// 		b.classList.toggle("colY");
-// 	f.onkeyup = function () {
-// 		if (b)
-// 			b.classList.toggle("colY");
-// 	}
-// };
+let caps = document.querySelector(".сapsLock");
 
 inp.onkeydown = function (event) {
-	console.log(event.key);
-	var b = digit.querySelector(".div-" + event.key);
+	console.log(event);
+	let b = document.querySelector(".div-" + event.code);
 	if (b)
 		b.classList.toggle("colY");
 	inp.onkeyup = function () {
 		if (b)
 			b.classList.toggle("colY");
-	}
-};
-
-letter1.onkeydown = function (event) {
-	console.log(event.key);
-	var letter = letter1.onkeydown(".div-" + event.key);
-	if (letter)
-		letter.classList.toggle("colY");
-	letter1.onkeyup = function () {
-		if (letter)
-			letter.classList.toggle("colY");
-	}
+	};
+	// if (caps)
+	// 	caps.classList.toggle("colY");
 }
+
+
